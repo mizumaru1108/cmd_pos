@@ -174,6 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        // ini provider fortify
+        App\Providers\FortifyServiceProvider::class,
 
     ],
 
